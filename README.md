@@ -1,36 +1,79 @@
-# Vanced Issue Center 
-> ###### The purpose of this repo is to help you find your way around.
+### DISCLAIMER:  
+‼️ **DO NOT ASK FOR VIDEO DOWNLOADER FEATURE OR UNLOCK HIGHER QUALITY VIDEO DOWNLOADS IN VANCED.**‼️ Subscribe to YouTube Premium instead. Any issues opened in respect of this will be closed instantly without second thoughts.
+
 ___
 
-#### Make sure you look through the issues pages to check for a issue already open that describes your problem or idea and give it a thumbs up reaction and add a comment instead of opening a duplicate issue.
+# Vanced Issue Center
+
+The purpose of this repo is to help you find your way around.
+
+Make sure to look through the existing issues to check if your problem was already reported before opening your issue!
+
+Note that issues related to Vanced Manager, Vanced MicroG, or Vanced Music do not belong here. You can find more info below.
+
 ___
-<a href="https://vancedapp.com"><img src="https://cdn.discordapp.com/emojis/724333860598579290.png" alt="Vanced" height="55" align="left"></a>
+
+<a href="https://vancedapp.com"></a>
+
 ## For Vanced
+
 ### Have a Vanced bug?
-Head over to [Issues Page](https://github.com/YTVanced/Vanced/issues), create a new issue and put `[Bug]` tag as a title prefix
 
-### Have a ideas for Vanced?
-Head over to [Issues Page](https://github.com/YTVanced/Vanced/issues), create a new issue and put `[Idea]` tag as a title prefix
+Head over to the [Issues Page](https://github.com/YTVanced/Vanced/issues), create a new issue, and put the `[Bug]` tag as a title prefix
+
+### Have an idea for Vanced?
+
+Head over to the [Issues Page](https://github.com/YTVanced/Vanced/issues), create a new issue, and put the `[Idea]` tag as a title prefix
 ___
-<a href="https://github.com/YTVanced/VancedManager"><img src="https://cdn.discordapp.com/emojis/727995382012837898.png" alt="Vanced Manager" align="left" height="70" ></a>
-## Have a Manager bug? 
-Head over to [Issues Page](https://github.com/YTVanced/VancedManager/issues)
+
+<a href="https://github.com/YTVanced/VancedManager"></a>
+
+## Have a Manager bug?
+
+Head over to the [Vanced Manager Issues Page](https://github.com/YTVanced/VancedManager/issues)
 ___
-<a href="https://github.com/YTVanced/VancedMicroG"><img src="https://cdn.discordapp.com/emojis/739533000609628191.png" alt="Vanced MicroG" height="75" align="left" ></a>
+
+<a href="https://github.com/YTVanced/VancedMicroG"><img src="https://i.imgur.com/BCqPbnY.png" alt="Vanced MicroG" height="75" align="left" ></a>
+
 ## Have a Vanced MicroG bug?
-Head over to [Issue Page](https://github.com/YTVanced/VancedMicroG/issues) or try the upstream [Issue Page](https://github.com/microg/android_packages_apps_GmsCore) for bugs that are not Vanced MicroG specific.
+
+Head over to the [Vanced MicroG Issues Page](https://github.com/YTVanced/VancedMicroG/issues)
 ___
-<img src="https://cdn.discordapp.com/emojis/771642079318638603.png" alt="Vanced SponsorBlock" height="65" align="left"></a>
+
+</a>
+
 ## Have a Vanced Music bug?
-Sorry but Vanced team doesn't accept Vanced Music issues at this time.
+
+Sorry, but we don't provide support for Vanced Music at this time as it is only a side project. Unless your bug breaks the main functionality, it will most likely not be fixed.
 ___
-<a href="https://github.com/YTVanced/SponsorBlock"><img src="https://cdn.discordapp.com/attachments/548867094259826700/776979672264474644/LogoSponsorBlockSimple256px.png" alt="Vanced SponsorBlock" height="70" align="left"></a>
+
+<a href="https://github.com/YTVanced/SponsorBlock"><img src="https://imgur.com/y0pmZb9.png" alt="Vanced SponsorBlock" height="65" align="left"></a>
+
 ## Have a features request for our SponsorBlock implementation?
-Head over to  [Issues Page](https://github.com/YTVanced/SponsorBlock/issues)
 
-________
+Head over to the [Vanced SponsorBlock Issues Page](https://github.com/YTVanced/SponsorBlock/issues)
+
+___
+
+## Vanced Guides
+
+- Vanced troubleshooting can be found [here](https://telegra.ph/Troubleshooting-for-vanced-03-19)
+- Vanced FAQ can be found [here](https://telegra.ph/Vanced-FAQ-08-31)
+- Vanced installation guide can be found [here](https://telegra.ph/Installation-for-Vanced-09-01)
+- Useful guides like how to set up adb or how to create a logcat can be found [here](https://telegra.ph/Bug-Reports-10-17)
 
 
+___
 
+## Contributors
 
->- Guide created by gghhkm
+- [gghhkm](https://github.com/gghhkm)
+- [Vendicated](https://github.com/Vendicated)
+- [Milind Goel](https://github.com/milindgoel15)
+
+___
+
+## BSDiff Tools
+
+- To use these you must have a copy of a v1 vanced api "apks" folder of the version you want make diffs of and run the python script from there
+- Before you run the script move the root/Theme stock and dpi apk to your working directory, delete the hash.json file and run the "generate_base_apk.sh" script to make a compatible base apk
